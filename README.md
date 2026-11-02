@@ -110,6 +110,4 @@ Toutes les limites sont détaillées dans le [guide technique](docs/guide_techni
 
 Projet réalisé en équipe de 5 à Epitech Paris : Claude Capito (chef de groupe), Talel Ouertani, James-Junior Pamara, Zakaria Abdelkhaled, Colin Parent.
 
-**Mon rôle (Talel Ouertani)** : [À COMPLÉTER — par exemple : collecte des données INSEE et OpenStreetMap, calcul de l'accès à 5 minutes, rapport Power BI]
-
 Données : INSEE, IGN, transport.data.gouv.fr, Citiz (GBFS public), OpenStreetMap © contributeurs OpenStreetMap (licence ODbL).
