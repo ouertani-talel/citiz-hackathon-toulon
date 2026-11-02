@@ -1,0 +1,25 @@
+{
+    "name": "pipeline_citiz_30min",
+    "objectId": "<ID_DU_PIPELINE>",
+    "properties": {
+        "activities": [
+            {
+                "name": "collecte_citiz",
+                "type": "TridentNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.00:10:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "typeProperties": {
+                    "notebookId": "<ID_DU_NOTEBOOK_1_bronze_citizgbfs>",
+                    "workspaceId": "<ID_DU_WORKSPACE_FABRIC>"
+                }
+            }
+        ],
+        "lastPublishTime": "2026-10-20T13:07:17Z"
+    }
+}
